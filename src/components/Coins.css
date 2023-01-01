@@ -1,0 +1,128 @@
+            .container {
+                max-width: 1300px;
+                margin: auto;
+            }
+            
+            .heading {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                box-shadow: 0px 0px 1px #18191b;
+                margin-top: 50px;
+                padding: .9rem 1rem;
+                font-weight: 600;
+                color: #18191b;
+            }
+            
+            .coin-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                box-shadow: 0px 0px 1px #18191b;
+                padding: .9rem 1rem;
+                color: #18191b;
+                font-weight: 500;
+                font-size: 14px;
+                max-width: 100%;
+            }
+            /* .coin-row:hover {
+    transform: scale(1.04);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+} */
+            /* --------------------------------------------------------------- */
+            /* -------------------------------------------------------------- */
+            
+            img {
+                height: 40px;
+                margin-right: 8px;
+                width: auto;
+            }
+            
+            .img-symbol {
+                width: 16%;
+                display: flex;
+                align-items: center;
+            }
+            
+            .name {
+                width: 16%;
+            }
+            
+            .price {
+                width: 16%;
+            }
+            
+            .twenty {
+                width: 16%;
+                /* padding-left: 150px; */
+            }
+            
+            .marketcap {
+                width: 16%;
+                /* padding-left: 150px; */
+            }
+            
+            .supply {
+                width: 16%;
+            }
+            
+            .main-cont {
+                max-width: 1300px;
+                display: flexbox;
+                justify-content: space-between
+            }
+            
+            .mob-cont {
+                background-color: #edf1f9;
+                color: #18191b;
+                display: flex;
+                justify-content: center;
+                text-align: left;
+                max-width: 100%;
+            }
+            
+            .btn {
+                background: #3498db;
+                background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+                background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+                background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+                background-image: -o-linear-gradient(top, #3498db, #2980b9);
+                background-image: linear-gradient(to bottom, #3498db, #2980b9);
+                -webkit-border-radius: 28;
+                -moz-border-radius: 28;
+                border-radius: 28px;
+                font-family: Arial;
+                color: #ffffff;
+                font-size: 20px;
+                padding: 10px 20px 10px 20px;
+                text-decoration: none;
+            }
+            
+            .btn:hover {
+                background: #3cb0fd;
+                background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+                background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+                background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+                background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+                background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+                text-decoration: none;
+            }
+            
+            .button {
+                display: flex;
+                text-align: center;
+                justify-content: center;
+            }
+            
+            @media screen and (max-width: 720px) {
+                .hide-mobile {
+                    display: none;
+                }
+                /* .marketcap {
+                display: block;
+            }
+            .supply {
+                display: block;
+            } */
+            }

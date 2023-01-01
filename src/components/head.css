@@ -1,0 +1,22 @@
+                                                    .head {
+                                                        color: black;
+                                                        display: flex;
+                                                        flex-wrap: wrap;
+                                                        padding: 0 111px;
+                                                        justify-content: left;
+                                                        text-align: left;
+                                                    }
+                                                    
+                                                    @media (max-width: 980px) {
+                                                        .head {
+                                                            padding: 0px 10px;
+                                                        }
+                                                    }
+                                                    
+                                                    @media (max-width: 1316px) {
+                                                        .head {
+                                                            padding: 0px 0px;
+                                                            justify-content: left;
+                                                            text-align: left;
+                                                        }
+                                                    }

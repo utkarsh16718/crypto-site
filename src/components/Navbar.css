@@ -1,0 +1,34 @@
+.nav {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 126px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+}
+
+.title {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+@media (max-width: 980px) {
+    .nav {
+        padding: 0px 30px;
+    }
+}
+
+@media (max-width: 1316px) {
+    .nav {
+        padding: 0px 15px;
+    }
+}
+
+
+/* @media (min-width: 1316px) {
+    .nav {
+        padding: 0px 15px;
+    }
+} */
